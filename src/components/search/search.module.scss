@@ -1,0 +1,30 @@
+.root {
+  border: 1px solid rgba(0,0,0,0.3);
+
+}
+
+.input {
+  width: 300px;
+  height: 30px;
+  font-size: 26px;
+  border: none;
+  &:focus{
+    opacity: 0.8;
+  }
+}
+
+.clear {
+  width: 22px;
+  top: 60px;
+  height: 22px;
+  cursor: pointer;
+  &:hover{
+    opacity: 0.3
+  }
+}
+
+.search {
+  width: 22px;
+  height: 22px;
+  margin-top: 8px;
+}

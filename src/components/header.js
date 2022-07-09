@@ -2,8 +2,10 @@ import React from 'react';
 import logo from '../assets/img/logo.png'
 import BasketPrice from '../assets/img/basket_price.png'
 import {Link} from "react-router-dom";
+import Search from "./search";
 
-function Header(props) {
+function Header() {
+
     return (
         <div className="header">
             <div className="container">
@@ -16,6 +18,7 @@ function Header(props) {
                         </div>
                     </div>
                 </Link>
+                <Search />
                <Link to="/cart">
                    <div className="header__cart">
                        <a href="../public/cart.html" className="button button--cart">

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Cart(props) {
     return (
-        <div>
+        <div className='container'>
             <h1>Basket</h1>
         </div>
     );

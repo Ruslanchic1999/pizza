@@ -1,0 +1,22 @@
+.root{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  span{
+    border: 1px solid white;
+    width: 20px;
+    height: 22px;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover{
+      border: 1px solid black;
+    }
+  }
+
+  button {
+    left: 20px;
+
+  }
+}
+

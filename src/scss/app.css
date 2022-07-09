@@ -356,15 +356,11 @@ body {
 }
 
 .wrapper {
-  width: calc(100vw - 50px);
+  width: calc(100vw - 100px);
   height: 100%;
   background-color: #fff;
   margin: 50px auto;
   border-radius: 10px;
-  min-width: 1400px;
-}
-.wrapper .container {
-  min-width: 1330px;
 }
 
 .content {
@@ -397,11 +393,13 @@ body {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
 .content__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 
 .container {
   width: 90%;
