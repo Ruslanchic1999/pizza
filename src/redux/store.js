@@ -5,6 +5,8 @@ export const store = configureStore({
     reducer: {
         filterSlice
     },
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware(),
 
 })
 
+console.log(store)

@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../assets/img/logo.png'
 import BasketPrice from '../assets/img/basket_price.png'
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import Search from "./search";
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
     return (
         <div className="header">
             <div className="container">
-                <Link to="/">
+                <NavLink id="RouterNavLink"  to="/">
                     <div className="header__logo">
                         <img width="38" src={logo} alt="Pizza logo"/>
                         <div>
@@ -17,9 +17,9 @@ function Header() {
                             <p>It's most delicious pizza in universe</p>
                         </div>
                     </div>
-                </Link>
+                </NavLink>
                 <Search />
-               <Link to="/cart">
+               <NavLink id="RouterNavLink"  to="/cart">
                    <div className="header__cart">
                        <a href="../public/cart.html" className="button button--cart">
                            <span>520 ₽</span>
@@ -28,7 +28,7 @@ function Header() {
                            <span>3</span>
                        </a>
                    </div>
-               </Link>
+               </NavLink>
             </div>
         </div>
     );
